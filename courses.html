@@ -2,30 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Learn Coding - Courses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses - LearnCoding</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Our Courses</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="courses.html">Courses</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">LearnCoding</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html" class="active">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <section class="hero small">
+    <div class="container">
+      <h2>Our Popular Courses</h2>
+      <p>Choose from beginner to advanced coding courses and start your journey today!</p>
+    </div>
+  </section>
+
   <section class="courses">
-    <div class="course-card">
-      <h3>HTML</h3>
-      <p>Learn to structure websites using HTML.</p>
+    <div class="container">
+      <div class="course-card">
+        <h3>HTML & CSS Basics</h3>
+        <p>Build and style beautiful websites with ease.</p>
+        <a href="#" class="btn">Enroll Now</a>
+      </div>
+      <div class="course-card">
+        <h3>JavaScript Mastery</h3>
+        <p>Make your websites interactive and dynamic.</p>
+        <a href="#" class="btn">Enroll Now</a>
+      </div>
+      <div class="course-card">
+        <h3>Python Programming</h3>
+        <p>Learn programming fundamentals and data handling.</p>
+        <a href="#" class="btn">Enroll Now</a>
+      </div>
     </div>
-    <div class="course-card">
-      <h3>CSS</h3>
-      <p>Style your websites using modern CSS.</p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 LearnCoding. All rights reserved.</p>
     </div>
-    <div class="course-card">
-      <h3>JavaScript</h3>
+  </footer>
+</body>
+</html>
       <p>Make interactive websites using JavaScript.</p>
     </div>
   </section>
