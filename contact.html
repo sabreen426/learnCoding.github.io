@@ -2,24 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact Us - Learn Coding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - LearnCoding</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Contact Us</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="courses.html">Courses</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">LearnCoding</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section>
-    <p>Email us at: <a href="mailto:support@learncoding.com">support@learncoding.com</a></p>
+
+  <section class="hero small">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? Reach out to us below.</p>
+    </div>
   </section>
+
+  <section class="contact-form">
+    <div class="container">
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
   <footer>
-    <p>© 2025 Learn Coding. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 LearnCoding. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
