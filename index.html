@@ -2,25 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Learn Coding - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Coding</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Learn Coding</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="courses.html">Courses</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">LearnCoding</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section>
-    <h2>Welcome to Learn Coding</h2>
-    <p>Start your journey to becoming a coding expert with us!</p>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Master Web Development</h2>
+      <p>Learn HTML, CSS, JavaScript and more with our interactive tutorials.</p>
+      <a href="courses.html" class="btn">Start Learning</a>
+    </div>
   </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature-box">
+        <h3>Interactive Lessons</h3>
+        <p>Practice coding live with examples and challenges.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Real Projects</h3>
+        <p>Build real-world projects to boost your portfolio.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Free Resources</h3>
+        <p>Access cheat sheets, PDFs, and useful developer tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to become a developer?</h2>
+      <a href="courses.html" class="btn">Explore Courses</a>
+    </div>
+  </section>
+
   <footer>
-    <p>© 2025 Learn Coding. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 LearnCoding. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
